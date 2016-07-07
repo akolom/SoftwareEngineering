@@ -1,0 +1,19 @@
+Requirements: Use the data access subsystem to 
+interact with the database -- use the project
+SampleDataAccessSubsystem for reference.
+
+Implement the three methods listed in business.DbClassCatalog
+  List<Catalog> getAllCatalogs() 
+  int insertNewCatalog(String catalogName) 
+  int deleteCatalog(int id) 
+  
+Data for catalogs is stored in productsdb.catalogtype.
+
+The main method in the Main class provides test code
+for your methods. Be careful in the way you modify
+the catalogtype table in the database, since it will be used in the
+real project later. The main method will ask you
+to add a new catalog, grab the new catalog id,
+and then delete that same catalog, so the table
+will remain unchanged.
+
